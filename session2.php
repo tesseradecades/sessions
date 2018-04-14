@@ -1,6 +1,7 @@
 <?php
 // Start the session
 session_start();
+$name = $_SESSION["name"];
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,7 +14,7 @@ if ($_SESSION["username"] != "") {
     echo $_SESSION["username"];
 	echo "<h2> ";
 ?>
-	Welcome <?php echo $_POST["name"]; ?><br>
+	Welcome <?php echo $name; ?><br>
 	<br /><br />
 	<a href="clearsessions.php">Clear Sessions</a>
 

@@ -1,6 +1,7 @@
 <?php
 // Start the session
 session_start();
+$name = $_SESSION["name"];
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +15,7 @@ if ($_SESSION["username"] != "") {
     echo $_SESSION["username"];
 ?>
 
-Welcome <?php echo $_POST["name"]; ?><br>
+Welcome <?php echo $name; ?><br>
 
 <img src="magic-blacksmith-15511-1920x1080.JPG">
 
