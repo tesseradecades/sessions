@@ -7,11 +7,6 @@ session_start();
 <body>
 
 <?php
-
-function saveName(){
-
-}
-
 // Read the sessions
 if ($_SESSION["username"] != "") {
 	echo "<br>Hello ";

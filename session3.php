@@ -14,8 +14,7 @@ if ($_SESSION["username"] != "") {
     echo $_SESSION["username"];
 ?>
 
-<h1>Valid User</h1>
-You are a valid user. Here is your reward!!!<br />
+Welcome <?php echo $_SESSION["name"]; ?><br>
 
 <img src="magic-blacksmith-15511-1920x1080.JPG">
 
