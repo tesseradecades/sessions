@@ -44,7 +44,7 @@ session_start();
                name = "login">Login</button>
          </form>
 			
-         Click here to clean <a href = "clearsessions.php" tite = "Logout">Session.</a>
+         Click here to clean <a href = "clearsessions.php" title = "Logout">Session.</a>
          
       </div> 
       
