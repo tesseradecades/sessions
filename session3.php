@@ -14,7 +14,7 @@ if ($_SESSION["username"] != "") {
     echo $_SESSION["username"];
 ?>
 
-Welcome <?php echo $_SESSION["name"]; ?><br>
+Welcome <?php echo $_POST["name"]; ?><br>
 
 <img src="magic-blacksmith-15511-1920x1080.JPG">
 

@@ -20,7 +20,7 @@ You are a valid user. Here is your reward!!!<br />
 
 
 <br /><br />
-<form action="saveName.php" method="post">
+<form method="post">
 	<label>Enter Your name below...</label>
 	<input type="text" name="name" id="name" value=""/>
 	<button class = "btn btn-lg btn-primary btn-block" type = "submit" name = "submitName">Submit Name</button>

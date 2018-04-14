@@ -13,7 +13,7 @@ if ($_SESSION["username"] != "") {
     echo $_SESSION["username"];
 	echo "<h2> ";
 ?>
-	Welcome <?php echo $_SESSION["name"]; ?><br>
+	Welcome <?php echo $_POST["name"]; ?><br>
 	<br /><br />
 	<a href="clearsessions.php">Clear Sessions</a>
 
