@@ -15,7 +15,7 @@ $_SESSION["username"] = "";
 $_SESSION["name"] = "";
 ?>
 
-
+<a href="index.php">Landing Page</a>
 
 
 </body>

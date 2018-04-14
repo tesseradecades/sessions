@@ -14,7 +14,7 @@ if ($_SESSION["username"] != "") {
     echo $_SESSION["username"];
 	echo "<h2> ";
 ?>
-	Welcome <?php echo $name; ?><br>
+	...but your name is <?php echo $name; ?><br>
 	<br /><br />
 	<a href="clearsessions.php">Clear Sessions</a>
 
